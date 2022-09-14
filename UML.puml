@@ -1,0 +1,20 @@
+@startuml
+Class user{
+time: str
+movie: str
+seat: int
+n_ticket: int
+TypeTickect: str
+
+generatorTicket()
+}
+
+class Seats{
+Seat: user
+
+Aviable_Seats()
+
+}
+
+user "1" --* "1" Seats
+@enduml
